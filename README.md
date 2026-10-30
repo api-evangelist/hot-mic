@@ -64,5 +64,125 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hot Mic is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by starting-line-vc) and added to the network as a stub for full-pipeline profiling.
-- https://hotmic.io
+Hot Mic provides a platform that enables apps to integrate creator‑powered video content, offering live streaming, on‑demand video, and interactive tools for creators. Their solution includes SDKs for iOS, Android, and Web, analytics APIs, and monetization features, helping businesses build community‑driven experiences without relying on third‑party social platforms.
+
+**Areas:** Company · Video · LiveStreaming · CreatorContent · SDK
+
+## Hot Mic on APIs.io
+
+Everything profiled for Hot Mic is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hot-mic/](https://apis.io/providers/hot-mic/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Hot Mic API](https://apis.io/apis/hot-mic/hot-mic-api/) — API reference for Hot Mic platform covering REST endpoints, authentication, and webhooks.
+- [Hot Mic Presence API](https://apis.io/apis/hot-mic/hot-mic-presence-api/) — The Presence API from Hot Mic — 1 operation(s) for presence.
+- [Hot Mic Streams API](https://apis.io/apis/hot-mic/hot-mic-streams-api/) — The Streams API from Hot Mic — 4 operation(s) for streams.
+- [Hot Mic Studio API](https://apis.io/apis/hot-mic/hot-mic-studio-api/) — The Studio API from Hot Mic — 1 operation(s) for studio.
+- [Hot Mic Users API](https://apis.io/apis/hot-mic/hot-mic-users-api/) — The Users API from Hot Mic — 2 operation(s) for users.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Hot Mic Webhooks](https://apis.io/asyncapis/hot-mic/hot-mic-webhooks/)
+
+#### JSON Schema (11)
+
+The data models the API reads and writes.
+
+- [GetStreamsIdResponse](https://apis.io/schemas/hot-mic/hot-mic-get-streams-id-response/)
+- [GetStreamsResponse](https://apis.io/schemas/hot-mic/hot-mic-get-streams-response/)
+- [GetStudioShowSeriesResponse](https://apis.io/schemas/hot-mic/hot-mic-get-studio-show-series-response/)
+- [PostStudioShowSeriesRequest](https://apis.io/schemas/hot-mic/hot-mic-post-studio-show-series-request/)
+- [PostStudioShowSeriesResponse](https://apis.io/schemas/hot-mic/hot-mic-post-studio-show-series-response/)
+- [PostUsersRequest](https://apis.io/schemas/hot-mic/hot-mic-post-users-request/)
+- [PutStreamsIdRequest](https://apis.io/schemas/hot-mic/hot-mic-put-streams-id-request/)
+- [PutStreamsIdResponse](https://apis.io/schemas/hot-mic/hot-mic-put-streams-id-response/)
+- [PutStudioShowSeriesRequest](https://apis.io/schemas/hot-mic/hot-mic-put-studio-show-series-request/)
+- [PutStudioShowSeriesResponse](https://apis.io/schemas/hot-mic/hot-mic-put-studio-show-series-response/)
+- [PutUsersIdRequest](https://apis.io/schemas/hot-mic/hot-mic-put-users-id-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Hot Mic Context](https://apis.io/jsonld/hot-mic/hot-mic-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Hot Mic API Rules](https://apis.io/rules/hot-mic/hot-mic-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hot Mic Authentication](https://apis.io/security/hot-mic/hot-mic-authentication/)
+- [Hot Mic Domain Security](https://apis.io/security/hot-mic/hot-mic-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hotmic.io)
+- [Documentation](https://hotmic.io/docs)
+- [Getting started](https://hotmic.io/company)
+- [Pricing](https://hotmic.io/pricing)
+
+## API Evangelist rating
+
+**Kin Score 27.4** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.9 |
+| Contract quality | 33.6 |
+| Contract governance | 19.7 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 40.5 |
+| Access clarity | 10.5 |
+
+**Agent readiness 22.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | yes |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 16.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hot-mic/](https://apis.io/providers/hot-mic/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hot Mic: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hot-mic/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
